@@ -1,9 +1,5 @@
-import Link from 'next/link'
+import { NewGameButton } from "components/NewGameButton";
 
-const HomePage = () => (
-  <Link href="games/1">
-    <a>New Game</a>
-  </Link>
-)
+const HomePage = () => <NewGameButton />;
 
-export default HomePage
+export default HomePage;
