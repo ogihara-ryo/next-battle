@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "User" (
+CREATE TABLE "Game" (
 "id" SERIAL,
     "serealNumber" TEXT NOT NULL,
 
