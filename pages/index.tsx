@@ -1,5 +1,9 @@
+import Link from 'next/link'
+
 const HomePage = () => (
-  <h1>hello, world</h1>
+  <Link href="games/1">
+    <a>New Game</a>
+  </Link>
 )
 
 export default HomePage
